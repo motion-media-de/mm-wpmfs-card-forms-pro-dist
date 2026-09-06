@@ -4,7 +4,7 @@ Tags:              forms, card, mobile-first, gutenberg
 Requires at least: 6.5
 Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        1.0.0
+Stable tag:        1.0.1
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,12 +37,18 @@ Nein. Die Card-Forms-Familie läuft eigenständig. Ist das Toolkit aktiv, ordnet
 
 == Changelog ==
 
+= 1.0.1 =
+* Beim Löschen des Plugins wird die eigene Option entfernt. Formulare und Einsendungen gehören dem Basis-Plugin und bleiben unangetastet.
+
 = 1.0.0 =
 * Erste Fassung als Erweiterung von Card Forms.
 * Umbenannt auf das Präfix der WPMFS-Familie (vormals `card-forms-pro`).
 * Lizenz-Header von Proprietary auf GPLv2 or later; kommerziell sind Updates und Support.
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Wartungsrelease. Kein Handlungsbedarf.
 
 = 1.0.0 =
 Erste Fassung unter dem neuen Plugin-Slug `mm-wpmfs-card-forms-pro`.
