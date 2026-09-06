@@ -4,7 +4,7 @@ Tags:              forms, card, mobile-first, gutenberg
 Requires at least: 6.5
 Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        1.0.1
+Stable tag:        1.0.2
 License:           GPLv2 or later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,10 @@ Nein. Die Card-Forms-Familie läuft eigenständig. Ist das Toolkit aktiv, ordnet
 
 == Changelog ==
 
+= 1.0.2 =
+* Plugin-Symbol und -Banner werden jetzt an WordPress gemeldet und erscheinen in der Plugin-Liste und im „Details ansehen"-Dialog. Vorläufige Grafiken, bis endgültiges Material vorliegt.
+* Der geteilte Update-Code trägt eine neue Versionsnummer. Ohne sie hätte die älteste installierte Kopie das Verhalten aller Plugins der Familie bestimmt.
+
 = 1.0.1 =
 * Beim Löschen des Plugins wird die eigene Option entfernt. Formulare und Einsendungen gehören dem Basis-Plugin und bleiben unangetastet.
 
@@ -46,6 +50,9 @@ Nein. Die Card-Forms-Familie läuft eigenständig. Ist das Toolkit aktiv, ordnet
 * Lizenz-Header von Proprietary auf GPLv2 or later; kommerziell sind Updates und Support.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+Bringt Symbole und Banner mit. Damit sie überall greifen, sollten alle Plugins der Familie aktualisiert werden.
 
 = 1.0.1 =
 Wartungsrelease. Kein Handlungsbedarf.
